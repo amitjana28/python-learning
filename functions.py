@@ -76,3 +76,20 @@ arbitaryArgumentExample("Amit Jana",25,isMarried=False,gender="Male")
 # syntex = lambda argument : expresion
 cube = lambda a : a*a*a
 print(cube(12))
+
+
+
+# Passed by referanc and passed by value : Mutable objects beahaves like passed by referance, change inside the function affect original and Imutable behaves like passed by value, original remain unchanged
+def fun(x):
+    x[0]=20
+
+def fun2(x):
+    x=10
+
+list = [40,80,120]
+fun(list)
+print(list)
+
+a=5
+fun2(a)
+print(a)
