@@ -8,7 +8,8 @@ result = sum(2,5)
 print(result)
 
 
-
+f = sum
+print(f(45,65))
 
 
 
@@ -93,3 +94,18 @@ print(list)
 a=5
 fun2(a)
 print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# In python functions are treated as like numbers, string or any other variables. We can assign them to a variable, pass them as a argument into another function
+# Return them from function, store them in datastructure like list, or dictionary
