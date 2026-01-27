@@ -8,8 +8,7 @@ result = sum(2,5)
 print(result)
 
 
-f = sum
-print(f(45,65))
+
 
 
 
@@ -74,7 +73,7 @@ arbitaryArgumentExample("Amit Jana",25,isMarried=False,gender="Male")
 
 
 # Anonymus or lambda function : function without the name using lambda keyword 
-# syntex = lambda argument : expresion
+# syntex  function_name = lambda arguments_commma_seperated : return_expresion
 cube = lambda a : a*a*a
 print(cube(12))
 
@@ -97,15 +96,10 @@ print(a)
 
 
 
-
-
-
-
-
-
-
-
-
-
 # In python functions are treated as like numbers, string or any other variables. We can assign them to a variable, pass them as a argument into another function
 # Return them from function, store them in datastructure like list, or dictionary
+
+
+# Stored sum(a,b) function in f variable and used as f(a,b)
+f = sum
+print(f(45,65))
