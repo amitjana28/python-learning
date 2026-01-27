@@ -33,3 +33,30 @@ print(fruits)
 print(cars)
 print(veggies)
 
+
+
+
+
+
+
+
+
+
+# There are two types of variables Global and local
+variable = "Global variable"
+
+def fun():
+    variable = "Local Variable"
+    print(variable)
+
+def fun2():
+    global variable
+    print(variable)
+    variable = "Updated Global Variable"
+    print(variable)
+
+fun()
+print(variable)
+fun2()
+print(variable)
+
